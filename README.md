@@ -6,7 +6,7 @@
   
 - **_La principal es que el número de iteraciones de un ```for``` esta definido de antemano, mientras que en un ```while``` no._**
   
-- _La diferencia principal con respecto al ```while``` es en la condición._
+- **_La diferencia principal con respecto al ```while``` es en la condición._**
   
 - Mientras que en el ```while``` la condición era evaluada en cada iteración para decidir si volver a ejecutar o no el código, en el ```for``` no existe tal condición, sino un iterable que define las veces que se ejecutará el código.
   
