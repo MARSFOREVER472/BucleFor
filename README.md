@@ -2,7 +2,7 @@
 
 **_A continuación explicaremos el bucle ```for``` y sus particularidades en Python, que comparado con otros lenguajes de comparación, tiene ciertas diferencias._**
 
-- El ```for``` es un tipo de bucle, parecido al while pero con ciertas diferencias.
+- El ```for``` es un tipo de bucle, parecido al ```while``` pero con ciertas diferencias.
   
 - La principal es que el número de iteraciones de un for esta definido de antemano, mientras que en un while no.
   
