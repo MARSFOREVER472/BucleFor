@@ -21,7 +21,7 @@
 
 # DATOS DE ENTRADA:
 
-from collections import Iterable
+from collections.abc import Iterable
 lista = [1, 2, 3, 4]
 string = "Python"
 number = 10
@@ -29,3 +29,23 @@ number = 10
 print(isinstance(lista, Iterable))
 print(isinstance(string, Iterable))
 print(isinstance(number, Iterable))
+
+# DATOS DE SALIDA:
+
+# lista = True.
+# string = True.
+# number = False.
+
+# Por lo tanto las listas (list) y las cadenas (string) son iterables, pero la variable 'number', que es un entero (int) no lo es. 
+# Es por eso por lo que no podemos hacer lo siguiente, ya que daría un error. 
+# De hecho el error sería TypeError: int' object is not iterable.
+
+# DATOS DE ENTRADA:
+
+# number = 10
+# for i in number:
+# print(i)
+
+# DATOS DE SALIDA:
+
+# TypeError: int' object is not iterable.
