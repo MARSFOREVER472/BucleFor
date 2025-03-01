@@ -10,7 +10,7 @@
   
 - **_Mientras que en el ```while``` la condición era evaluada en cada iteración para decidir si volver a ejecutar o no el código, en el ```for``` no existe tal condición, sino un iterable que define las veces que se ejecutará el código._**
   
-- **_En el siguiente ejemplo vemos un bucle ```for``` que se ejecuta 5 veces, y donde la ```i``` incrementa su valor “automáticamente” en 1 en cada iteración._**
+- **_En el siguiente ejemplo vemos un bucle ```for``` que se ejecuta 5 veces, y donde la ```i``` incrementa su valor “automáticamente” en 1 en cada iteración:_**
 
 ```
 for i in range(0, 5):
