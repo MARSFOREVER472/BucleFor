@@ -30,6 +30,7 @@ for i in range(0, 5):
 
 - **_En Python se puede iterar prácticamente todo, como por ejemplo una cadena. En el siguiente ejemplo vemos como la i va tomando los valores de cada letra._**
 
+
 for i in "Python":
     print(i)
 
