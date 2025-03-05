@@ -53,7 +53,7 @@ for i in "Python":
   
 - **_Los iteradores son objetos que hacen referencia a un elemento, y que tienen un método ```next``` que permite hacer referencia al siguiente._**
 
-- Ambos son conceptos un tanto abstractos y que pueden ser complicados de entender.
+- _Ambos son conceptos un tanto abstractos y que pueden ser complicados de entender._
   
 - Veamos unos ejemplos. Como hemos comentado, los iterables son objetos que pueden ser iterados o accedidos con un índice.
   
