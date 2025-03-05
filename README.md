@@ -55,7 +55,7 @@ for i in "Python":
 
 - **_Ambos son conceptos un tanto abstractos y que pueden ser complicados de entender._**
   
-- _Veamos unos ejemplos. Como hemos comentado, los iterables son objetos que pueden ser iterados o accedidos con un índice._
+- **_Veamos unos ejemplos. Como hemos comentado, los iterables son objetos que pueden ser iterados o accedidos con un índice._**
   
 - Algunos ejemplos de iterables en Python son las listas, tuplas, cadenas o diccionarios.
   
