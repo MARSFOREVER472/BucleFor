@@ -52,3 +52,87 @@ print(next(it)) # ITERADOR 4...
 #               ^
 #               |
 #              it
+
+# Existen otros iteradores para diferentes clases:
+
+# - str_iterator para cadenas
+# - list_iterator para sets.
+# - tuple_iterator para tuplas.
+# - set_iterator para sets.
+# - dict_keyiterator para diccionarios.
+
+# Dado que el iterador hace referencia a nuestra lista, si llamamos más veces a next() que la longitud de la lista, 
+# se nos devolverá un error "StopIteration". 
+
+# Lamentablemente no existe ninguna opción de volver al elemento anterior.
+
+lista = [5, 6] # SE CREA UNA LISTA CON 2 VALORES DENTRO DE UN ARREGLO...
+it = iter(lista) # LLAMAREMOS A UN ITERADOR, EN ESTE CASO SERÍA "lista"...
+
+print(next(it)) # SE HACE REFERENCIA AL SIGUIENTE SI HAY UN ELEMENTO DENTRO DE UN ARREGLO, EN CASO DE QUE NO EXISTA, SE DESPLIEGA UN MENSAJE DE ERROR...
+
+#     [5, 6]
+#      ^
+#      |
+#     it
+
+print(next(it))
+
+#     [5, 6]
+#         ^
+#         |
+#        it
+
+# print(next(it))
+
+# StopIteration
+
+# Es perfectamente posible tener diferentes iteradores para la misma lista, y serán totalmente independientes. 
+# Tan solo dependerán de la lista, como es evidente, pero no entre ellos.
+
+lista1 = [5, 6, 7]
+
+it1 = iter(lista1) # ITERADOR 1...
+it2 = iter(lista1) # ITERADOR 2...
+
+print(next(it1))
+
+#     [5, 6, 7]
+#      ^
+#      |
+#     it
+
+print(next(it1))
+
+#     [5, 6, 7]
+#         ^
+#         |
+#        it
+
+print(next(it1))
+
+#     [5, 6, 7]
+#            ^
+#            |
+#           it
+
+print(next(it2))
+
+#     [5, 6, 7]
+#      ^
+#      |
+#     it
+
+print(next(it2))
+
+#     [5, 6, 7]
+#         ^
+#         |
+#        it
+
+print(next(it2))
+
+#     [5, 6, 7]
+#            ^
+#            |
+#           it
