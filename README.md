@@ -42,4 +42,5 @@ for i in "Python":
 # o
 # n
 ```
+
 ## Iterables e iteradores
