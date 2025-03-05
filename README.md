@@ -23,3 +23,32 @@ for i in range(0, 5):
 # 3
 # 4
 ```
+
+- **_Si has leído el capítulo del ```while```, tal vez ya empieces a ver ventajas en el uso del ```for```._**
+  
+- **_Si por ejemplo, queremos tener un número que va creciendo de ```0``` a ```n```, hacerlo con ```for``` nos ahorra alguna línea de código, porque no tenemos que escribir código para incrementar el número._**
+
+- **_En Python se puede iterar prácticamente todo, como por ejemplo una cadena. En el siguiente ejemplo vemos como la variable ```i``` va tomando los valores de cada letra._**
+
+```
+for i in "Python":
+    print(i)
+
+# Salida:
+# P
+# y
+# t
+# h
+# o
+# n
+```
+
+### **_Iterables e iteradores_**
+
+- **_Para entender al cien por cien los bucles ```for```, y como Python fue diseñado como lenguaje de programación, es muy importante entender los conceptos de iterables e iteradores._**
+
+- **_Empecemos con un par de definiciones:_**
+
+- **_Los iterables son aquellos objetos que como su nombre indica pueden ser iterados, lo que dicho de otra forma es, que puedan ser indexados. Si piensas en un array (o una ```list``` en Python), podemos indexarlo con ```lista[1]``` por ejemplo, por lo que sería un iterable._**
+  
+- **_Los iteradores son objetos que hacen referencia a un elemento, y que tienen un método ```next``` que permite hacer referencia al siguiente._**
