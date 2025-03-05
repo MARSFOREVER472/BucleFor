@@ -49,6 +49,6 @@ for i in "Python":
 
 - **_Empecemos con un par de definiciones:_**
 
-- Los iterables son aquellos objetos que como su nombre indica pueden ser iterados, lo que dicho de otra forma es, que puedan ser indexados. Si piensas en un array (o una list en Python), podemos indexarlo con lista[1] por ejemplo, por lo que sería un iterable.
+- _Los iterables son aquellos objetos que como su nombre indica pueden ser iterados, lo que dicho de otra forma es, que puedan ser indexados. Si piensas en un array (o una list en Python), podemos indexarlo con lista[1] por ejemplo, por lo que sería un iterable._
   
 - Los iteradores son objetos que hacen referencia a un elemento, y que tienen un método next que permite hacer referencia al siguiente.
