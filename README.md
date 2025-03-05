@@ -26,7 +26,7 @@ for i in range(0, 5):
 
 - **_Si has leído el capítulo del while, tal vez ya empieces a ver ventajas en el uso del for._**
   
-- **_Si por ejemplo, queremos tener un número que va creciendo de ```0``` a n, hacerlo con for nos ahorra alguna línea de código, porque no tenemos que escribir código para incrementar el número._**
+- **_Si por ejemplo, queremos tener un número que va creciendo de ```0``` a ```n```, hacerlo con for nos ahorra alguna línea de código, porque no tenemos que escribir código para incrementar el número._**
 
 - **_En Python se puede iterar prácticamente todo, como por ejemplo una cadena. En el siguiente ejemplo vemos como la variable ```i``` va tomando los valores de cada letra._**
 
