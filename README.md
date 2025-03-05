@@ -58,4 +58,5 @@ for i in "Python":
 - Veamos unos ejemplos. Como hemos comentado, los iterables son objetos que pueden ser iterados o accedidos con un índice.
   
 - Algunos ejemplos de iterables en Python son las listas, tuplas, cadenas o diccionarios.
+  
 - Sabiendo esto, lo primero que tenemos que tener claro es que en un for, lo que va después del in deberá ser siempre un iterable.
