@@ -45,7 +45,7 @@ for i in "Python":
 
 ### **_Iterables e iteradores_**
 
-- **_Para entender al cien por cien los bucles ```for```, y como Python fue diseñado como lenguaje de programación, es muy importante entender los conceptos de iterables e iteradores._**
+- **_Para entender al cien por cien los bucles ```for```, y como Python fue diseñado como un lenguaje de programación, es muy importante entender los conceptos de iterables e iteradores._**
 
 - **_Empecemos con un par de definiciones:_**
 
