@@ -66,7 +66,7 @@ for i in "Python":
 #    <Código>
 ```
 
-- Tiene bastante sentido, porque si queremos iterar una variable, esta variable debe ser iterable, todo muy lógico.
+- _Tiene bastante sentido, porque si queremos iterar una variable, esta variable debe ser iterable, todo muy lógico._
   
 - Pero llegados a este punto, tal vez de preguntes ¿pero cómo se yo si algo es iterable o no?. Bien fácil, con la siguiente función isinstance() podemos saberlo.
   
