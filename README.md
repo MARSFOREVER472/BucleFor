@@ -60,3 +60,5 @@ for i in "Python":
 - **_Algunos ejemplos de iterables en Python son las listas, tuplas, cadenas o diccionarios._**
   
 - **_Dicho esto, lo primero que tenemos que tener claro es que dentro de un ```for```, lo que va después del ```in``` deberá ser siempre un iterable._**
+#for <variable> in <iterable>:
+#    <Código>
