@@ -71,3 +71,10 @@ for i in "Python":
 - **_Pero llegados a este punto, tal vez de preguntes ¿pero cómo se yo si algo es iterable o no?. Bien fácil, con la siguiente función isinstance() podemos saberlo._**
   
 - **_No te preocupes si no entiendes muy bien lo que estamos haciendo, fíjate solo en el resultado, ```True``` significa que es iterable y ```False``` que no lo es._**
+from collections import Iterable
+lista = [1, 2, 3, 4]
+cadena = "Python"
+numero = 10
+print(isinstance(lista, Iterable))  #True
+print(isinstance(cadena, Iterable)) #True
+print(isinstance(numero, Iterable)) #False
