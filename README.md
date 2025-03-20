@@ -80,3 +80,4 @@ numero = 10
 print(isinstance(lista, Iterable))  #True
 print(isinstance(cadena, Iterable)) #True
 print(isinstance(numero, Iterable)) #False
+```
