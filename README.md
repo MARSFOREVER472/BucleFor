@@ -68,7 +68,7 @@ for i in "Python":
 
 - **_Tiene bastante sentido, porque si queremos iterar una variable, esta variable debe ser iterable, todo muy lógico._**
   
-- **_Pero llegados a este punto, tal vez de preguntes ¿pero cómo se yo si algo es iterable o no?. Bien fácil, con la siguiente función isinstance() podemos saberlo._**
+- **_Pero llegados a este punto, tal vez de preguntes ¿pero cómo se yo si algo es iterable o no?. Bien fácil, con la siguiente función ```isinstance()``` podemos saberlo._**
   
 - **_No te preocupes si no entiendes muy bien lo que estamos haciendo, fíjate solo en el resultado, ```True``` significa que es iterable y ```False``` que no lo es._**
 
