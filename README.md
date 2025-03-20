@@ -82,7 +82,7 @@ print(isinstance(cadena, Iterable)) #True
 print(isinstance(numero, Iterable)) #False
 ```
 
-- **_Por lo tanto las listas y las cadenas son iterables, pero numero, que es un entero no lo es._**
+- **_Por lo tanto las listas y las cadenas son iterables, pero ```numero```, que es un entero no lo es._**
   
 - **_Es por eso por lo que no podemos hacer lo siguiente, ya que daría un error._**
   
