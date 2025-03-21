@@ -98,4 +98,4 @@ numero = 10
   
 - **_Para entender los iteradores, es importante conocer la función iter() en Python._**
   
-- Dicha función puede ser llamada sobre un objeto que sea iterable, y nos devolverá un iterador como se ve en el siguiente ejemplo.
+- _Dicha función puede ser llamada sobre un objeto que sea iterable, y nos devolverá un iterador como se ve en el siguiente ejemplo._
