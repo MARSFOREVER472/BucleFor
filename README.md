@@ -87,7 +87,7 @@ print(isinstance(numero, Iterable)) #False
 - **_Es por eso por lo que no podemos hacer lo siguiente, ya que daría un error._**
   
 - **_De hecho el error sería ```TypeError: int' object is not iterable```._**
-
+```
 numero = 10
 #for i in numero:
 #    print(i)
