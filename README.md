@@ -94,4 +94,4 @@ numero = 10
 #    print(i)
 ```
 
-Una vez entendidos los iterables, veamos los iteradores. Para entender los iteradores, es importante conocer la función iter() en Python. Dicha función puede ser llamada sobre un objeto que sea iterable, y nos devolverá un iterador como se ve en el siguiente ejemplo.
+- Una vez entendidos los iterables, veamos los iteradores. Para entender los iteradores, es importante conocer la función iter() en Python. Dicha función puede ser llamada sobre un objeto que sea iterable, y nos devolverá un iterador como se ve en el siguiente ejemplo.
