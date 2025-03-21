@@ -92,3 +92,4 @@ print(isinstance(numero, Iterable)) #False
 numero = 10
 #for i in numero:
 #    print(i)
+```
