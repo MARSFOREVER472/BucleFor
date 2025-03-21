@@ -94,7 +94,7 @@ numero = 10
 #    print(i)
 ```
 
-- _Una vez entendidos los iterables, veamos los iteradores._
+- **_Una vez entendidos los iterables, veamos los iteradores._**
   
 - Para entender los iteradores, es importante conocer la función iter() en Python.
   
