@@ -109,7 +109,7 @@ print(type(it)) #<class 'list_iterator'>
 
 - **_Vemos que al imprimir it es un iterador, de la clase list_iterator._**
   
-- _Esta variable iteradora, hace referencia a la lista original y nos permite acceder a sus elementos con la función next()._
+- **_Esta variable iteradora, hace referencia a la lista original y nos permite acceder a sus elementos con la función next()._**
   
 - _Cada vez que llamamos a next() sobre it, nos devuelve el siguiente elemento de la lista original. Por lo tanto, si queremos acceder al elemento 4, tendremos que llamar 4 veces a next()._
   
