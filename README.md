@@ -107,7 +107,7 @@ print(it)       #<list_iterator object at 0x106243828>
 print(type(it)) #<class 'list_iterator'>
 ```
 
-- Vemos que al imprimir it es un iterador, de la clase list_iterator.
+- _Vemos que al imprimir it es un iterador, de la clase list_iterator._
   
 - Esta variable iteradora, hace referencia a la lista original y nos permite acceder a sus elementos con la función next().
   
