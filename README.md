@@ -99,3 +99,7 @@ numero = 10
 - **_Para entender los iteradores, es importante conocer la función iter() en Python._**
   
 - **_Dicha función puede ser llamada sobre un objeto que sea iterable, y nos devolverá un iterador como se ve en el siguiente ejemplo._**
+lista = [5, 6, 3, 2]
+it = iter(lista)
+print(it)       #<list_iterator object at 0x106243828>
+print(type(it)) #<class 'list_iterator'>
