@@ -113,4 +113,4 @@ print(type(it)) #<class 'list_iterator'>
   
 - **_Cada vez que llamamos a ```next()``` sobre ```it```, nos devuelve el siguiente elemento de la lista original. Por lo tanto, si queremos acceder al elemento ```4```, tendremos que llamar 4 veces a ```next()```._**
   
-- **_Nótese que el iterador empieza apuntando fuera de la lista, y no hace referencia al primer elemento hasta que no se llama a next() por primera vez._**
+- **_Nótese que el iterador empieza apuntando fuera de la lista, y no hace referencia al primer elemento hasta que no se llama a ```next()``` por primera vez._**
