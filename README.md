@@ -144,5 +144,6 @@ print(next(it))
 - **_```list_iterator``` para sets._**
   
 - **_```tuple_iterator``` para tuplas._**
+  
 - **_```set_iterator``` para sets._**
 - **_```dict_keyiterator``` para diccionarios._**
