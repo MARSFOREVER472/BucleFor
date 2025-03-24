@@ -134,6 +134,7 @@ print(next(it))
 #            |
 #           it
 ```
+
 ### _Para saber más:_
 
 Existen otros iteradores para diferentes clases:
