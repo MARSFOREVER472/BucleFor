@@ -151,4 +151,4 @@ print(next(it))
 
 - **_Dado que el iterador hace referencia a nuestra lista, si llamamos más veces a next() que la longitud de la lista, se nos devolverá un error StopIteration._**
   
-- Lamentablemente no existe ninguna opción de volver al elemento anterior.
+- _Lamentablemente no existe ninguna opción de volver al elemento anterior._
