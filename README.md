@@ -133,3 +133,4 @@ print(next(it))
 #            ^
 #            |
 #           it
+```
