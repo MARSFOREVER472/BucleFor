@@ -1,4 +1,4 @@
-# **_Bucle_For_**
+# **_Bucle ```for```_**
 
 **_A continuación explicaremos el bucle ```for``` y sus particularidades en Python, que comparado con otros lenguajes de comparación, tiene ciertas diferencias._**
 
@@ -87,3 +87,30 @@ print(isinstance(numero, Iterable)) #False
 - **_Es por eso por lo que no podemos hacer lo siguiente, ya que daría un error._**
   
 - **_De hecho el error sería ```TypeError: int' object is not iterable```._**
+
+```
+numero = 10
+#for i in numero:
+#    print(i)
+```
+
+- **_Una vez entendidos los iterables, veamos los iteradores._**
+  
+- **_Para entender los iteradores, es importante conocer la función ```iter()``` en Python._**
+  
+- **_Dicha función puede ser llamada sobre un objeto que sea iterable, y nos devolverá un iterador como se ve en el siguiente ejemplo._**
+
+```
+lista = [5, 6, 3, 2]
+it = iter(lista)
+print(it)       #<list_iterator object at 0x106243828>
+print(type(it)) #<class 'list_iterator'>
+```
+
+- **_Vemos que al imprimir ```it``` es un iterador, de la clase ```list_iterator```._**
+  
+- **_Esta variable iteradora, hace referencia a la lista original y nos permite acceder a sus elementos con la función ```next()```._**
+  
+- **_Cada vez que llamamos a ```next()``` sobre ```it```, nos devuelve el siguiente elemento de la lista original. Por lo tanto, si queremos acceder al elemento ```4```, tendremos que llamar 4 veces a ```next()```._**
+  
+- **_Nótese que el iterador empieza apuntando fuera de la lista, y no hace referencia al primer elemento hasta que no se llama a ```next()``` por primera vez._**
