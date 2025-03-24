@@ -150,4 +150,5 @@ print(next(it))
 - **_```dict_keyiterator``` para diccionarios._**
 
 - Dado que el iterador hace referencia a nuestra lista, si llamamos más veces a next() que la longitud de la lista, se nos devolverá un error StopIteration.
+  
 - Lamentablemente no existe ninguna opción de volver al elemento anterior.
