@@ -135,4 +135,5 @@ print(next(it))
 #           it
 ```
 ### Para saber más: 
+
 Existen otros iteradores para diferentes clases:
