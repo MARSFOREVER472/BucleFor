@@ -137,4 +137,4 @@ print(next(it))
 
 ### _Para saber más:_
 
-_Existen otros iteradores para diferentes clases:_
+**_Existen otros iteradores para diferentes clases:_**
