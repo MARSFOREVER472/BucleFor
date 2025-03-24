@@ -140,7 +140,7 @@ print(next(it))
 **_Existen otros iteradores para diferentes clases:_**
 
 - **_str_iterator para cadenas._**
-- _list_iterator para sets._
+- **_list_iterator para sets._**
 - tuple_iterator para tuplas.
 - set_iterator para sets.
 - dict_keyiterator para diccionarios.
