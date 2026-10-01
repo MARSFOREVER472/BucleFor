@@ -1,6 +1,6 @@
 # **_Bucle ```for```_**
 
-**_A continuación explicaremos el bucle ```for``` y sus particularidades en Python, que comparado con otros lenguajes de comparación, tiene ciertas diferencias._**
+### **_A continuación explicaremos el bucle ```for``` y sus particularidades en Python, que comparado con otros lenguajes de comparación, tiene ciertas diferencias:_**
 
 - **_El ```for``` es un tipo de bucle, parecido al ```while``` pero con ciertas diferencias._**
   
@@ -114,3 +114,41 @@ print(type(it)) #<class 'list_iterator'>
 - **_Cada vez que llamamos a ```next()``` sobre ```it```, nos devuelve el siguiente elemento de la lista original. Por lo tanto, si queremos acceder al elemento ```4```, tendremos que llamar 4 veces a ```next()```._**
   
 - **_Nótese que el iterador empieza apuntando fuera de la lista, y no hace referencia al primer elemento hasta que no se llama a ```next()``` por primera vez._**
+
+```
+lista = [5, 6, 3, 2]
+it = iter(lista)
+print(next(it))
+#     [5, 6, 3, 2]
+#      ^
+#      |
+#     it
+print(next(it))
+#     [5, 6, 3, 2]
+#         ^
+#         |
+#        it
+print(next(it))
+#     [5, 6, 3, 2]
+#            ^
+#            |
+#           it
+```
+
+### _Para saber más:_
+
+**_Existen otros iteradores para diferentes clases:_**
+
+- **_```str_iterator``` para cadenas._**
+  
+- **_```list_iterator``` para sets._**
+  
+- **_```tuple_iterator``` para tuplas._**
+  
+- **_```set_iterator``` para sets._**
+  
+- **_```dict_keyiterator``` para diccionarios._**
+
+- **_Dado que el iterador hace referencia a nuestra lista, si llamamos más veces a ```next()``` que la longitud de la lista, se nos devolverá un error ```StopIteration```._**
+  
+- **_Lamentablemente no existe ninguna opción de volver al elemento anterior._**
