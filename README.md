@@ -84,7 +84,7 @@ print(isinstance(numero, Iterable)) #False
 
 - **_Por lo tanto las listas y las cadenas son iterables, pero la variable ```numero```, que es un entero no lo es._**
   
-- **_Es por eso por lo que no podemos hacer lo siguiente, ya que daría un error._**
+- **_Es por eso por lo que no podemos hacer lo siguiente, ya que arrojaría un error._**
   
 - **_De hecho el error sería ```TypeError: int' object is not iterable```._**
 
